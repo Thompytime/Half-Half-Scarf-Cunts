@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.shirt-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.shirt-half {
+    margin: 0 40px; /* Increase space between shirts */
+}
+
+.shirt-half img {
+    max-width: 400px; /* Double the size */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px; /* Increase font size for better visibility */
+    width: 250px; /* Make input box wider */
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px; /* Slightly larger button text */
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 22px; /* Larger text for the result */
+    font-weight: bold;
+}

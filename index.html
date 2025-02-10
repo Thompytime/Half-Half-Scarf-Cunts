@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Shirt Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Football Shirt Guessing Game</h1>
+        <div class="shirt-container">
+            <div class="shirt-half" id="shirt-left">
+                <img id="left-shirt" src="" alt="Left Shirt Half">
+                <input type="text" id="left-answer" placeholder="Guess Team 1" />
+            </div>
+            <div class="shirt-half" id="shirt-right">
+                <img id="right-shirt" src="" alt="Right Shirt Half">
+                <input type="text" id="right-answer" placeholder="Guess Team 2" />
+            </div>
+        </div>
+        <button onclick="checkAnswer()">Check Answer</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
